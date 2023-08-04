@@ -12,6 +12,9 @@ export class Book {
   author: string;
 
   @Prop()
+  email: string;
+
+  @Prop()
   publishYear: number;
 }
 
